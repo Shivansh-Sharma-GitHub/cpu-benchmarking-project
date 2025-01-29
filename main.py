@@ -99,7 +99,7 @@ class CPUBenchmarkApp:
 
         thread = threading.Thread(target=benchmark_task)
         thread.start()
-
+#main function
 def main():
     root = tk.Tk()
     CPUBenchmarkApp(root)
