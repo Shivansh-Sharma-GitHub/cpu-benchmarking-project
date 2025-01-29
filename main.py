@@ -18,7 +18,7 @@ class CPUBenchmarkApp:
         self.time_var = tk.StringVar(value="")
 
         self.create_widgets()
-
+#function for widgets
     def create_widgets(self):
         header_label = tk.Label(self.root, text="CPU Benchmark Tool", font=(
             "Arial", 20, "bold"), bg="#F4EEEE", fg="#2D2D2D")
