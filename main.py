@@ -5,7 +5,7 @@ import math
 import threading
 
 MAX_ITERATIONS = 200  # Set the maximum number of iterations
-
+#function for benchmarking
 class CPUBenchmarkApp:
     def __init__(self, root):
         self.root = root
