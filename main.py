@@ -67,7 +67,7 @@ class CPUBenchmarkApp:
             return True
         else:
             return False
-
+#run benchmark
     def run_benchmark(self):
         iterations = self.iterations_var.get()
 
