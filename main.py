@@ -61,7 +61,7 @@ class CPUBenchmarkApp:
         self.time_label = tk.Label(result_frame, textvariable=self.time_var, font=(
             "Arial", 16), bg="#F4EEEE", fg="#2D2D2D")
         self.time_label.pack()
-
+#validating iterations
     def validate_iterations(self, new_value):
         if new_value == "" or (new_value.isnumeric() and 1 <= int(new_value) <= MAX_ITERATIONS):
             return True
