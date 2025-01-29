@@ -104,7 +104,7 @@ def main():
     root = tk.Tk()
     CPUBenchmarkApp(root)
     root.mainloop()
-
+#function for runnning main
 if __name__ == "__main__":
     main()
 
